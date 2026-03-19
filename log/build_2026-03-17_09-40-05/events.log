@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000129] (-) JobUnselected: {'identifier': 'first_interfaces'}
-[0.000155] (-) JobUnselected: {'identifier': 'first_package'}
-[0.000170] (-) EventReactorShutdown: {}

@@ -1,7 +1,0 @@
-{
-  "package_name": "first_interfaces",
-  "non_idl_tuples": [
-    "/home/athens/ros2_athens_ws/src/first_interfaces:msg/ExampleMessage.msg",
-    "/home/athens/ros2_athens_ws/src/first_interfaces:srv/AddTwoInts.srv"
-  ]
-}
