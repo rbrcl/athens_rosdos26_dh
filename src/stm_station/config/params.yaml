@@ -1,0 +1,5 @@
+serial_node: # This must match the 'name' you give the node in the launch file
+  ros_parameters:
+    master_group_id: 1
+    slave_group_id: 2
+    kp: 1.5

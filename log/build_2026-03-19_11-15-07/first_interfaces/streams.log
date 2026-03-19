@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/athens/ros2_athens_ws/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/athens/ros2_athens_ws/build/first_interfaces -- -j3 -l3
+[0.605s] [  0%] Built target ament_cmake_python_copy_first_interfaces
+[0.605s] [  2%] Built target first_interfaces__rosidl_generator_type_description
+[0.605s] [ 20%] Built target first_interfaces__rosidl_generator_c
+[0.605s] [ 31%] Built target first_interfaces__cpp
+[0.606s] [ 31%] Built target first_interfaces__rosidl_typesupport_fastrtps_c
+[0.606s] [ 40%] Built target first_interfaces__rosidl_typesupport_c
+[0.606s] [ 50%] Built target first_interfaces__rosidl_typesupport_introspection_c
+[0.606s] [ 59%] Built target first_interfaces__rosidl_typesupport_introspection_cpp
+[0.606s] [ 68%] Built target first_interfaces__rosidl_typesupport_cpp
+[0.606s] [ 77%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.606s] [ 77%] Built target first_interfaces
+[0.606s] [ 79%] Built target first_interfaces__py
+[0.606s] [ 86%] Built target first_interfaces__rosidl_generator_py
+[0.647s] [ 90%] Built target first_interfaces_s__rosidl_typesupport_introspection_c
+[0.672s] running egg_info
+[0.679s] [ 95%] Built target first_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.704s] [100%] Built target first_interfaces_s__rosidl_typesupport_c
+[0.724s] writing first_interfaces.egg-info/PKG-INFO
+[0.729s] writing dependency_links to first_interfaces.egg-info/dependency_links.txt
+[0.729s] writing top-level names to first_interfaces.egg-info/top_level.txt
+[0.861s] reading manifest file 'first_interfaces.egg-info/SOURCES.txt'
+[0.863s] writing manifest file 'first_interfaces.egg-info/SOURCES.txt'
+[0.923s] [100%] Built target ament_cmake_python_build_first_interfaces_egg

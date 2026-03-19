@@ -1,0 +1,8 @@
+[console_scripts]
+second_publisher_node = first_package.second_publisher:main
+second_pubsub_node = first_package.second_pubsub:main
+second_subscriber_node = first_package.second_subscriber:main
+simple_publisher_node = first_package.simple_publisher:main
+simple_pubsub_node = first_package.simple_pubsub:main
+simple_service = first_package.simple_service:main
+simple_subscriber_node = first_package.simple_subscriber:main

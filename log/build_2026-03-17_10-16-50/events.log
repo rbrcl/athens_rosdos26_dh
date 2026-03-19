@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.000533] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.000593] (first_package) JobQueued: {'identifier': 'first_package', 'dependencies': OrderedDict()}
+[0.000614] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.010357] (first_package) JobStarted: {'identifier': 'first_package'}
+[0.020111] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.020408] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[0.021183] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/athens/ros2_athens_ws/build/first_interfaces', '--', '-j3', '-l3'], 'cwd': '/home/athens/ros2_athens_ws/build/first_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'athens', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/athens/ros2_athens_ws/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/athens', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/athens/ros2_athens_ws/src', 'TERM_PROGRAM_VERSION': '1.109.5', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1936', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2202', 'BUNDLED_DEBUGPY_PATH': '/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5906', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/athens/ros2_athens_ws/install:/home/athens/ros2_athens_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'athens', 'JOURNAL_STREAM': '9:15338', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'athens', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/athens:@/tmp/.ICE-unix/2144,unix/athens:/tmp/.ICE-unix/2144', 'INVOCATION_ID': 'a0dfe045d2834a57941fa1027bcdf331', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-60f72db98d163ef3.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/athens/.config/Code/User/workspaceStorage/1b1692a1a83d8b9e5863c8d2004c79c1/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1W8CM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-358c5fdd07.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_athens_ws/install/first_interfaces:/home/athens/ros2_athens_ws/src/install/first_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/athens/ros2_athens_ws/build/first_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages:/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages:/home/athens/ros2_athens_ws/src/install/first_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/athens/ros2_athens_ws/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_athens_ws/src/install/first_package:/opt/ros/jazzy'}), 'shell': False}
+[0.091226] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099068] (-) TimerEvent: {}
+[0.146202] (first_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.202168] (-) TimerEvent: {}
+[0.302927] (-) TimerEvent: {}
+[0.404935] (-) TimerEvent: {}
+[0.408412] (first_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.450878] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.463813] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.482872] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.505747] (-) TimerEvent: {}
+[0.506492] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.579362] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.595208] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.605920] (-) TimerEvent: {}
+[0.707015] (-) TimerEvent: {}
+[0.807382] (-) TimerEvent: {}
+[0.909281] (-) TimerEvent: {}
+[0.978367] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.009954] (-) TimerEvent: {}
+[1.111020] (-) TimerEvent: {}
+[1.180569] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.211837] (-) TimerEvent: {}
+[1.252626] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.254028] (first_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.287073] (first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/first_package', 'build', '--build-base', '/home/athens/ros2_athens_ws/build/first_package/build', 'install', '--record', '/home/athens/ros2_athens_ws/build/first_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/athens/ros2_athens_ws/src/first_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'athens', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/athens/ros2_athens_ws/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/athens', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/athens/ros2_athens_ws/src', 'TERM_PROGRAM_VERSION': '1.109.5', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1936', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2202', 'BUNDLED_DEBUGPY_PATH': '/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5906', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/athens/ros2_athens_ws/install:/home/athens/ros2_athens_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'athens', 'JOURNAL_STREAM': '9:15338', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'athens', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/athens:@/tmp/.ICE-unix/2144,unix/athens:/tmp/.ICE-unix/2144', 'INVOCATION_ID': 'a0dfe045d2834a57941fa1027bcdf331', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-60f72db98d163ef3.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/athens/.config/Code/User/workspaceStorage/1b1692a1a83d8b9e5863c8d2004c79c1/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1W8CM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-358c5fdd07.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_athens_ws/install/first_interfaces:/home/athens/ros2_athens_ws/src/install/first_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/athens/ros2_athens_ws/build/first_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athens/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages:/home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages:/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages:/home/athens/ros2_athens_ws/src/install/first_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/athens/ros2_athens_ws/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.312554] (-) TimerEvent: {}
+[1.413593] (-) TimerEvent: {}
+[1.514413] (-) TimerEvent: {}
+[1.611863] (first_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.614546] (-) TimerEvent: {}
+[1.630919] (first_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.639339] (first_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.654178] (first_package) StdoutLine: {'line': b'writing ../../build/first_package/first_package.egg-info/PKG-INFO\n'}
+[1.655005] (first_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.655125] (first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt\n'}
+[1.656676] (first_package) StdoutLine: {'line': b'writing entry points to ../../build/first_package/first_package.egg-info/entry_points.txt\n'}
+[1.657776] (first_package) StdoutLine: {'line': b'writing requirements to ../../build/first_package/first_package.egg-info/requires.txt\n'}
+[1.657861] (first_package) StdoutLine: {'line': b'writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt\n'}
+[1.659142] (first_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.678422] (first_interfaces) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[1.714008] (first_package) StdoutLine: {'line': b"reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[1.714670] (-) TimerEvent: {}
+[1.715309] (first_package) StdoutLine: {'line': b"writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[1.715819] (first_package) StdoutLine: {'line': b'running build\n'}
+[1.715916] (first_package) StdoutLine: {'line': b'running build_py\n'}
+[1.716685] (first_package) StdoutLine: {'line': b'copying first_package/simple_service.py -> /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package\n'}
+[1.717155] (first_package) StdoutLine: {'line': b'running install\n'}
+[1.727116] (first_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.750648] (first_package) StdoutLine: {'line': b'copying /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package/simple_service.py -> /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package\n'}
+[1.751837] (first_package) StdoutLine: {'line': b'byte-compiling /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package/simple_service.py to simple_service.cpython-312.pyc\n'}
+[1.752596] (first_package) StdoutLine: {'line': b'running install_data\n'}
+[1.752732] (first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.786565] (first_package) StdoutLine: {'line': b"removing '/home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.786764] (first_package) StdoutLine: {'line': b'Copying ../../build/first_package/first_package.egg-info to /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package-0.0.0-py3.12.egg-info\n'}
+[1.787823] (first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.796345] (first_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.812897] (first_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/athens/ros2_athens_ws/build/first_interfaces\n'}
+[1.814862] (-) TimerEvent: {}
+[1.885912] (first_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.892297] (first_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_first_interfaces\n'}
+[1.915363] (-) TimerEvent: {}
+[1.947845] (first_package) StdoutLine: {'line': b'Installing second_publisher_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[1.952187] (first_package) StdoutLine: {'line': b'Installing second_pubsub_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[1.953367] (first_package) StdoutLine: {'line': b'Installing second_subscriber_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[1.954093] (first_package) StdoutLine: {'line': b'Installing simple_publisher_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[1.955356] (first_package) StdoutLine: {'line': b'Installing simple_pubsub_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[1.956428] (first_package) StdoutLine: {'line': b'Installing simple_service script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[1.957099] (first_package) StdoutLine: {'line': b'Installing simple_subscriber_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[1.959206] (first_package) StdoutLine: {'line': b"writing list of installed files to '/home/athens/ros2_athens_ws/build/first_package/install.log'\n"}
+[2.015885] (-) TimerEvent: {}
+[2.029836] (first_package) CommandEnded: {'returncode': 0}
+[2.063905] (first_package) JobEnded: {'identifier': 'first_package', 'rc': 0}
+[2.117027] (-) TimerEvent: {}
+[2.217517] (-) TimerEvent: {}
+[2.238318] (first_interfaces) StdoutLine: {'line': b'[  2%] Built target first_interfaces__rosidl_generator_type_description\n'}
+[2.266895] (first_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.268143] (first_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.283851] (first_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.294860] (first_interfaces) StdoutLine: {'line': b'writing first_interfaces.egg-info/PKG-INFO\n'}
+[2.295029] (first_interfaces) StdoutLine: {'line': b'writing dependency_links to first_interfaces.egg-info/dependency_links.txt\n'}
+[2.295200] (first_interfaces) StdoutLine: {'line': b'writing top-level names to first_interfaces.egg-info/top_level.txt\n'}
+[2.318024] (-) TimerEvent: {}
+[2.411624] (first_interfaces) StdoutLine: {'line': b"reading manifest file 'first_interfaces.egg-info/SOURCES.txt'\n"}
+[2.412817] (first_interfaces) StdoutLine: {'line': b"writing manifest file 'first_interfaces.egg-info/SOURCES.txt'\n"}
+[2.418824] (-) TimerEvent: {}
+[2.452065] (first_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_first_interfaces_egg\n'}
+[2.520189] (-) TimerEvent: {}
+[2.620767] (-) TimerEvent: {}
+[2.719839] (first_interfaces) StdoutLine: {'line': b'[  6%] Built target first_interfaces__cpp\n'}
+[2.720991] (-) TimerEvent: {}
+[2.782906] (first_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/example_message__type_support.c.o\x1b[0m\n'}
+[2.783095] (first_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/example_message__description.c.o\x1b[0m\n'}
+[2.783951] (first_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/example_message__functions.c.o\x1b[0m\n'}
+[2.821886] (-) TimerEvent: {}
+[2.836998] (first_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_two_ints__description.c.o\x1b[0m\n'}
+[2.855338] (first_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[2.882661] (first_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[2.922022] (-) TimerEvent: {}
+[2.953475] (first_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libfirst_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.998620] (first_interfaces) StdoutLine: {'line': b'[ 22%] Built target first_interfaces__rosidl_generator_c\n'}
+[3.010421] (first_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.010610] (first_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.012523] (first_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.022910] (-) TimerEvent: {}
+[3.123181] (-) TimerEvent: {}
+[3.223684] (-) TimerEvent: {}
+[3.326073] (-) TimerEvent: {}
+[3.428025] (-) TimerEvent: {}
+[3.443516] (first_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/example_message__type_support.cpp.o\x1b[0m\n'}
+[3.528298] (-) TimerEvent: {}
+[3.570279] (first_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/example_message__type_support.cpp.o\x1b[0m\n'}
+[3.583185] (first_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/first_interfaces/msg/detail/example_message__type_support_c.cpp.o\x1b[0m\n'}
+[3.628867] (-) TimerEvent: {}
+[3.729462] (-) TimerEvent: {}
+[3.831155] (-) TimerEvent: {}
+[3.873673] (first_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.931431] (-) TimerEvent: {}
+[4.031762] (-) TimerEvent: {}
+[4.132219] (-) TimerEvent: {}
+[4.235876] (-) TimerEvent: {}
+[4.338869] (-) TimerEvent: {}
+[4.439816] (-) TimerEvent: {}
+[4.475987] (first_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/first_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[4.488466] (first_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[4.540940] (-) TimerEvent: {}
+[4.596747] (first_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.641278] (-) TimerEvent: {}
+[4.743194] (-) TimerEvent: {}
+[4.747067] (first_interfaces) StdoutLine: {'line': b'[ 45%] Built target first_interfaces__rosidl_typesupport_cpp\n'}
+[4.777497] (first_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.843262] (-) TimerEvent: {}
+[4.943733] (-) TimerEvent: {}
+[5.046074] (-) TimerEvent: {}
+[5.146548] (-) TimerEvent: {}
+[5.248586] (-) TimerEvent: {}
+[5.341294] (first_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.348953] (-) TimerEvent: {}
+[5.407022] (first_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.448491] (first_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_interfaces/msg/detail/example_message__type_support.c.o\x1b[0m\n'}
+[5.449568] (-) TimerEvent: {}
+[5.503100] (first_interfaces) StdoutLine: {'line': b'[ 54%] Built target first_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.527527] (first_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.549682] (-) TimerEvent: {}
+[5.556773] (first_interfaces) StdoutLine: {'line': b'[ 56%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.560722] (first_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_interfaces/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[5.587132] (first_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.650526] (-) TimerEvent: {}
+[5.656566] (first_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libfirst_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.743464] (first_interfaces) StdoutLine: {'line': b'[ 63%] Built target first_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.750830] (-) TimerEvent: {}
+[5.851399] (-) TimerEvent: {}
+[5.951958] (-) TimerEvent: {}
+[5.954161] (first_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/first_interfaces/msg/example_message__type_support.cpp.o\x1b[0m\n'}
+[5.957627] (first_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/first_interfaces/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[6.039084] (first_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/example_message__type_support.cpp.o\x1b[0m\n'}
+[6.039405] (first_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[6.053444] (-) TimerEvent: {}
+[6.054205] (first_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.138606] (first_interfaces) StdoutLine: {'line': b'[ 75%] Built target first_interfaces__rosidl_typesupport_c\n'}
+[6.153656] (-) TimerEvent: {}
+[6.254105] (-) TimerEvent: {}
+[6.354961] (-) TimerEvent: {}
+[6.455984] (-) TimerEvent: {}
+[6.554443] (first_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.557363] (-) TimerEvent: {}
+[6.651019] (first_interfaces) StdoutLine: {'line': b'[ 77%] Built target first_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.657975] (-) TimerEvent: {}
+[6.686933] (first_interfaces) StdoutLine: {'line': b'[ 77%] Built target first_interfaces\n'}
+[6.716847] (first_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.760392] (-) TimerEvent: {}
+[6.861594] (-) TimerEvent: {}
+[6.963854] (-) TimerEvent: {}
+[7.065336] (-) TimerEvent: {}
+[7.166035] (-) TimerEvent: {}
+[7.238554] (first_interfaces) StdoutLine: {'line': b'[ 79%] Built target first_interfaces__py\n'}
+[7.266969] (-) TimerEvent: {}
+[7.270913] (first_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_py.dir/rosidl_generator_py/first_interfaces/msg/_example_message_s.c.o\x1b[0m\n'}
+[7.271122] (first_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_py.dir/rosidl_generator_py/first_interfaces/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[7.367681] (-) TimerEvent: {}
+[7.468292] (-) TimerEvent: {}
+[7.481529] (first_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libfirst_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.535396] (first_interfaces) StdoutLine: {'line': b'[ 86%] Built target first_interfaces__rosidl_generator_py\n'}
+[7.562961] (first_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.563219] (first_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.564525] (first_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.569008] (-) TimerEvent: {}
+[7.669505] (-) TimerEvent: {}
+[7.687347] (first_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.733968] (first_interfaces) StdoutLine: {'line': b'[ 95%] Built target first_interfaces_s__rosidl_typesupport_c\n'}
+[7.761975] (first_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.770090] (-) TimerEvent: {}
+[7.773470] (first_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.814094] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[7.824496] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[7.837262] (first_interfaces) CommandEnded: {'returncode': 0}
+[7.838624] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'install'}
+[7.850487] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/athens/ros2_athens_ws/build/first_interfaces'], 'cwd': '/home/athens/ros2_athens_ws/build/first_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'athens', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/athens/ros2_athens_ws/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/athens', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/athens/ros2_athens_ws/src', 'TERM_PROGRAM_VERSION': '1.109.5', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1936', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2202', 'BUNDLED_DEBUGPY_PATH': '/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5906', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/athens/ros2_athens_ws/install:/home/athens/ros2_athens_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'athens', 'JOURNAL_STREAM': '9:15338', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'athens', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/athens:@/tmp/.ICE-unix/2144,unix/athens:/tmp/.ICE-unix/2144', 'INVOCATION_ID': 'a0dfe045d2834a57941fa1027bcdf331', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/athens/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-60f72db98d163ef3.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/athens/.config/Code/User/workspaceStorage/1b1692a1a83d8b9e5863c8d2004c79c1/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1W8CM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-358c5fdd07.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_athens_ws/install/first_interfaces:/home/athens/ros2_athens_ws/src/install/first_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/athens/ros2_athens_ws/build/first_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages:/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages:/home/athens/ros2_athens_ws/src/install/first_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/athens/ros2_athens_ws/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/athens/ros2_athens_ws/install/first_package:/home/athens/ros2_athens_ws/src/install/first_package:/opt/ros/jazzy'}), 'shell': False}
+[7.861533] (first_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.863140] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/rosidl_interfaces/first_interfaces\n'}
+[7.864601] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/msg/ExampleMessage.json\n'}
+[7.865343] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/srv/AddTwoInts.json\n'}
+[7.866300] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[7.866552] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[7.866874] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[7.867330] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__functions.c\n'}
+[7.867772] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__type_support.h\n'}
+[7.867946] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__functions.h\n'}
+[7.868119] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__description.c\n'}
+[7.868461] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__type_support.c\n'}
+[7.868783] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__struct.h\n'}
+[7.869100] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/add_two_ints.h\n'}
+[7.869333] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[7.869515] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.869676] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[7.870003] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__type_support.c\n'}
+[7.870096] (-) TimerEvent: {}
+[7.870276] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__struct.h\n'}
+[7.870425] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__functions.c\n'}
+[7.870666] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__type_support.h\n'}
+[7.870853] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__functions.h\n'}
+[7.871017] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__description.c\n'}
+[7.871236] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/example_message.h\n'}
+[7.871828] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/library_path.sh\n'}
+[7.872061] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/library_path.dsv\n'}
+[7.873120] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so\n'}
+[7.873519] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.873672] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[7.873915] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[7.874017] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[7.874149] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874299] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[7.874428] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.874552] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[7.874639] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__rosidl_typesupport_fastrtps_c.h\n'}
+[7.875900] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.876973] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.877085] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[7.877214] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[7.877324] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[7.877405] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__struct.hpp\n'}
+[7.878881] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__builder.hpp\n'}
+[7.878993] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__type_support.hpp\n'}
+[7.881204] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__traits.hpp\n'}
+[7.881338] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/add_two_ints.hpp\n'}
+[7.881410] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[7.881472] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[7.881582] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__struct.hpp\n'}
+[7.882390] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__traits.hpp\n'}
+[7.882472] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__builder.hpp\n'}
+[7.882534] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__type_support.hpp\n'}
+[7.882594] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/example_message.hpp\n'}
+[7.882653] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.882717] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[7.882816] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[7.884157] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[7.884292] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/dds_fastrtps\n'}
+[7.884358] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.884443] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[7.884517] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.885433] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[7.885797] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.885910] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/dds_fastrtps\n'}
+[7.885987] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.886661] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.886734] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[7.886801] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[7.886862] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[7.886921] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__type_support.c\n'}
+[7.887032] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[7.887100] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[7.887159] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[7.887246] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__type_support.c\n'}
+[7.887319] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__rosidl_typesupport_introspection_c.h\n'}
+[7.888819] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.888898] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.889031] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.889896] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so\n'}
+[7.890001] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.890084] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[7.890150] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[7.890887] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[7.891121] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__type_support.cpp\n'}
+[7.891219] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.891301] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[7.891361] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[7.891420] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.891479] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/example_message__type_support.cpp\n'}
+[7.892602] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.893689] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.895050] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.895899] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.896321] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.sh\n'}
+[7.896413] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.dsv\n'}
+[7.896832] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info\n'}
+[7.896933] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.897350] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.897746] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.898255] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.898510] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces\n'}
+[7.899109] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.899808] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv\n'}
+[7.900310] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_two_ints_s.c\n'}
+[7.900792] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/__init__.py\n'}
+[7.900920] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_two_ints.py\n'}
+[7.901352] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.901449] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.901888] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/__init__.py\n'}
+[7.901983] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.902691] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg\n'}
+[7.903523] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_example_message.py\n'}
+[7.903854] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/__init__.py\n'}
+[7.904115] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_example_message_s.c\n'}
+[7.906096] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.910689] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.964991] (first_interfaces) StdoutLine: {'line': b"Listing '/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces'...\n"}
+[7.965195] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/__init__.py'...\n"}
+[7.965306] (first_interfaces) StdoutLine: {'line': b"Listing '/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg'...\n"}
+[7.965439] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/__init__.py'...\n"}
+[7.965564] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_example_message.py'...\n"}
+[7.965645] (first_interfaces) StdoutLine: {'line': b"Listing '/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv'...\n"}
+[7.965832] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/__init__.py'...\n"}
+[7.965902] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_two_ints.py'...\n"}
+[7.971979] (-) TimerEvent: {}
+[7.972599] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.973063] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.973361] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.973682] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.973967] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.974317] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[7.975648] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_py.so\n'}
+[7.976119] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/athens/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.976396] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/msg/ExampleMessage.idl\n'}
+[7.976663] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/srv/AddTwoInts.idl\n'}
+[7.976817] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/msg/ExampleMessage.msg\n'}
+[7.977258] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/srv/AddTwoInts.srv\n'}
+[7.978194] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/package_run_dependencies/first_interfaces\n'}
+[7.979330] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/parent_prefix_path/first_interfaces\n'}
+[7.979783] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.sh\n'}
+[7.980238] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.980936] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/path.sh\n'}
+[7.981600] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/path.dsv\n'}
+[7.981918] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.bash\n'}
+[7.982059] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.sh\n'}
+[7.982150] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.zsh\n'}
+[7.984611] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.dsv\n'}
+[7.984890] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/package.dsv\n'}
+[7.985598] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/packages/first_interfaces\n'}
+[7.987107] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.987630] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.989173] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.989628] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.990614] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.991862] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.992011] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.993454] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.994314] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.995038] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.995707] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.996685] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.997128] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.998002] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.998363] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.999160] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.999512] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.000683] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.000855] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.000936] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.001065] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.001145] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.001221] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.001311] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.001390] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig.cmake\n'}
+[8.001463] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig-version.cmake\n'}
+[8.001537] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/athens/ros2_athens_ws/install/first_interfaces/share/first_interfaces/package.xml\n'}
+[8.008016] (first_interfaces) CommandEnded: {'returncode': 0}
+[8.044336] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 0}
+[8.045457] (-) EventReactorShutdown: {}

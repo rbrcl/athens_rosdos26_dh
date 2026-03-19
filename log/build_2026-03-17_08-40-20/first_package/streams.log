@@ -1,0 +1,45 @@
+[1.390s] Invoking command in '/home/athens/ros2_athens_ws/src/first_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athens/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package build --build-base /home/athens/ros2_athens_ws/build/first_package/build install --record /home/athens/ros2_athens_ws/build/first_package/install.log --single-version-externally-managed install_data
+[1.743s] running egg_info
+[1.766s] writing ../../build/first_package/first_package.egg-info/PKG-INFO
+[1.768s] writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt
+[1.768s] writing entry points to ../../build/first_package/first_package.egg-info/entry_points.txt
+[1.768s] writing requirements to ../../build/first_package/first_package.egg-info/requires.txt
+[1.768s] writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt
+[1.813s] reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'
+[1.815s] writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'
+[1.815s] running build
+[1.816s] running build_py
+[1.817s] copying first_package/second_pubsub.py -> /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package
+[1.818s] copying first_package/simple_subscriber.py -> /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package
+[1.819s] copying first_package/simple_pubsub.py -> /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package
+[1.819s] copying first_package/simple_publisher.py -> /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package
+[1.820s] copying first_package/second_publisher.py -> /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package
+[1.821s] copying first_package/second_subscriber.py -> /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package
+[1.822s] running install
+[1.830s] running install_lib
+[1.858s] copying /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package/second_pubsub.py -> /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package
+[1.858s] copying /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package/simple_subscriber.py -> /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package
+[1.858s] copying /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package/simple_pubsub.py -> /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package
+[1.859s] copying /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package/simple_publisher.py -> /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package
+[1.859s] copying /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package/second_publisher.py -> /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package
+[1.859s] copying /home/athens/ros2_athens_ws/build/first_package/build/lib/first_package/second_subscriber.py -> /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package
+[1.859s] byte-compiling /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package/second_pubsub.py to second_pubsub.cpython-312.pyc
+[1.860s] byte-compiling /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package/simple_subscriber.py to simple_subscriber.cpython-312.pyc
+[1.861s] byte-compiling /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package/simple_pubsub.py to simple_pubsub.cpython-312.pyc
+[1.861s] byte-compiling /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package/simple_publisher.py to simple_publisher.cpython-312.pyc
+[1.862s] byte-compiling /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package/second_publisher.py to second_publisher.cpython-312.pyc
+[1.862s] byte-compiling /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package/second_subscriber.py to second_subscriber.cpython-312.pyc
+[1.863s] running install_data
+[1.864s] copying package.xml -> /home/athens/ros2_athens_ws/install/first_package/share/first_package
+[1.864s] running install_egg_info
+[1.887s] removing '/home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package-0.0.0-py3.12.egg-info' (and everything under it)
+[1.887s] Copying ../../build/first_package/first_package.egg-info to /home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages/first_package-0.0.0-py3.12.egg-info
+[1.889s] running install_scripts
+[2.051s] Installing second_publisher_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package
+[2.051s] Installing second_pubsub_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package
+[2.051s] Installing second_subscriber_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package
+[2.052s] Installing simple_publisher_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package
+[2.052s] Installing simple_pubsub_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package
+[2.052s] Installing simple_subscriber_node script to /home/athens/ros2_athens_ws/install/first_package/lib/first_package
+[2.053s] writing list of installed files to '/home/athens/ros2_athens_ws/build/first_package/install.log'
+[2.095s] Invoked command in '/home/athens/ros2_athens_ws/src/first_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athens/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athens/ros2_athens_ws/install/first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package build --build-base /home/athens/ros2_athens_ws/build/first_package/build install --record /home/athens/ros2_athens_ws/build/first_package/install.log --single-version-externally-managed install_data
