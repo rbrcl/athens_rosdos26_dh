@@ -1,32 +1,28 @@
 # Import the ROS2 Python client library
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist # Import the Twist message type
-
-# If the publisher uses Int data type, use:
-# from std_msgs.msg import Int
+from first_interfaces.msg import ExampleMessage
 
 # Step 1: Define a class for the subscriber node
-# Replace 'Node_ID' with a unique name for your group’s node (e.g., 'node_1' if you’re Group 1)
-class MinimalSubscriber(Node):
+class my_subscriber(Node):
     def __init__(self):
-        # Initialize the node with the custom name 'node_NICKNAME'
-        super().__init__('node_10_sub')  # <-- Replace 'NICKNAME' with your actual group number
+        
+        super().__init__('node_10_mySub')
         
         # Step 2: Create a subscription to your group's topic
-        # Replace 'topic_ID' with the topic name you want to subscribe to (e.g., 'topic_1' for Group 1)
         # The callback function 'listener_callback' will be called whenever a message is received
         self.subscription = self.create_subscription(
-            Twist,             # Message type used by the publisher
-            'topic_1010',  # <-- Replace 'NICKNAME' with the specific topic name for your group
+            ExampleMessage,             # Message type used by the pubsub node
+            'topic2_10',
             self.listener_callback,  
-            10)  # Queue size for incoming messages
+            10                          # Queue size for incoming messages
+        )
         self.subscription  # Prevent unused variable warning
 
     # Step 3: Define the callback function that will be called when a message is received
     def listener_callback(self, msg):
         # Access the data using the same sub-variable names
-        self.get_logger().info(f'I heard: Linear x is {msg.linear.x}')
+        self.get_logger().info(f'Listening: my_float={msg.my_float}, my_float_array={msg.my_float_array}, my_string={msg.my_string}')
 
 # Step 4: Define the main function to run the node
 def main(args=None):
@@ -34,7 +30,7 @@ def main(args=None):
     rclpy.init(args=args)
     
     # Create an instance of the MinimalSubscriber node
-    minimal_subscriber = MinimalSubscriber()
+    minimal_subscriber = my_subscriber()
 
     try:
         # Run the node until interrupted

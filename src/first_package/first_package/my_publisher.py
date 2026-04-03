@@ -5,19 +5,16 @@ from geometry_msgs.msg import Twist # Import the Twist message type
 
 
 # Step 1: Define a class for the publisher node
-# Replace 'Node_ID' with a unique name for your group’s node (e.g., 'node_1' if you’re Group 1)
-class MinimalPublisher(Node):
+class my_publisher(Node):
     def __init__(self):
-        # Initialize the node with the custom name 'node_NICKNAME'
-        super().__init__('node_10_pub')  # <-- Replace 'NICKNAME' with your actual group number
+        # Initialize the node
+        super().__init__('node_10_myPub')  # group number: 10
         
         # Step 2: Create a publisher for your topic
-        # Replace 'topic_ID' with a unique topic name (e.g., 'topic_1' for Group 1)
         self.publisher_ = self.create_publisher(Twist, 'topic_10', 10)  # <-- Replace 'NICKNAME'
         
         # Step 3: Set a timer to publish messages at a chosen frequency
-        # Modify 'timer_period' to control how often messages are published (e.g., 2.0 for every 2 seconds)
-        timer_period = 3.0  # <-- You can change this to another value like 1.5 or 3.0
+        timer_period = 3.0
         self.timer = self.create_timer(timer_period, self.timer_callback)
         
         # Step 4: Initialize a counter to keep track of message numbers
@@ -28,17 +25,19 @@ class MinimalPublisher(Node):
         msg = Twist()
         
         # Linear movement (m/s)
-        msg.linear.x = 0.5  # Move forward at 0.5 meters per second
+        msg.linear.x = 0.5
         msg.linear.y = 0.0
         msg.linear.z = 0.0
         
         # Angular movement (rad/s)
         msg.angular.x = 0.0
         msg.angular.y = 0.0
-        msg.angular.z = 0.1  # Rotate slowly
+        msg.angular.z = 0.1
         
         self.publisher_.publish(msg)
-        self.get_logger().info(f'Publishing Twist: Linear x={msg.linear.x}, Angular z={msg.angular.z}')
+        self.get_logger().info(
+            f'Publishing Twist:\n Linear x={msg.linear.x},\n Angular z={msg.angular.z}'
+        )
 
         # Increment the message counter
         self.i += 1
@@ -49,7 +48,7 @@ def main(args=None):
     rclpy.init(args=args)
     
     # Create an instance of the MinimalPublisher node
-    minimal_publisher = MinimalPublisher()
+    minimal_publisher = my_publisher()
 
     try:
         # Run the node until interrupted

@@ -8,14 +8,16 @@ setup(
     name=package_name,
     version='0.0.0',
     packages=find_packages(exclude=['test']),
+
     data_files=[
         ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml'],
-        (os.path.join('share', package_name, 'launch')),
-        glob('launch/*.py')), # Add all Python launch files from the launch/ directory
+        ('share/' + package_name, ['package.xml']),
+        #(os.path.join('share', package_name, 'launch')),
+        #glob('launch/*.py')), # Add all Python launch files from the launch/ directory
         (os.path.join('share', package_name, 'config'),
         glob(os.path.join('config', '*.yaml'))),
     ],
+
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='athens',
@@ -32,6 +34,7 @@ setup(
             'stm_pub_node = stm_station.stm_serial_node_pub:main',
             'stm_pub_sub_node = stm_station.stm_serial_node_pub_sub:main',
             'stm_control_node = stm_station.stm_control_node_master_slave',
+            'stm_visualization_node = stm_station.stm_visualization',
         ],
     },
 )

@@ -26,6 +26,7 @@ $ colcon build          # Build your environment
 $ cd ~/ros2_athens_ws/src
 # Create the new package
 $ ros2 pkg create --build-type ament_python first_package --dependencies rclpy std_msgs
+
 ```
 2. Build the new package:
 ```bash
@@ -43,6 +44,22 @@ $ ros2 pkg list | grep “first_package ”
 ```bash
 $ source ~/ros2_athens_ws/install/local_setup.bash
 ```
+
+## Running a node
+
+1. build it, source it
+
+```bash
+$ cd ~/ros2_athens_ws         # Go to the ws directory
+$ colcon build                # Build your environment
+$ source install/setup.bash   # Source it
+```
+2. run the node
+
+```bash
+
+```
+
 
 ## Sourcing Environment
 

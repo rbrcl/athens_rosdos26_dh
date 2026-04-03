@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'first_package'
+package_name = 'stm_simulation'
 
 setup(
     name=package_name,
@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='athens',
-    maintainer_email='athens@todo.todo',
+    maintainer_email='dandahojny@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,15 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'simple_publisher_node = first_package.simple_publisher:main',
-            'simple_subscriber_node = first_package.simple_subscriber:main',
-            'simple_pubsub_node = first_package.simple_pubsub:main',
-
-            'my_publisher_node = first_package.my_publisher:main',
-            'my_pubsub_node = first_package.my_pubsub:main',
-            'my_subscriber_node = first_package.my_subscriber:main',
-
-            'simple_service = first_package.simple_service:main',
         ],
     },
 )
