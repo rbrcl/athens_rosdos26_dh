@@ -32,7 +32,7 @@ setup(
             'my_pubsub_node = first_package.my_pubsub:main',
             'my_subscriber_node = first_package.my_subscriber:main',
 
-            'simple_service = first_package.simple_service:main',
+            'my_service_node = first_package.my_service:main',
         ],
     },
 )

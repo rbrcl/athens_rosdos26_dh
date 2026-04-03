@@ -15,7 +15,7 @@ set(msg_files
   "msg/ExampleMessage.msg"
 )
 set(srv_files
-  "srv/AddTwoInts.srv"
+  "srv/AddTwoFloats.srv"
 )
 
 # Generate the messages:

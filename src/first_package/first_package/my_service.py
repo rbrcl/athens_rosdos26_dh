@@ -4,18 +4,18 @@
 # 1. Import necessary libraries and custom message/service types
 import rclpy
 from rclpy.node import Node
-from example_interfaces.srv import AddTwoInts
+from first_interfaces.srv import AddTwoFloats
 
 # 2. Define the AddTwoIntsServer class
-class AddTwoIntsServer(Node):
+class AddTwoFloatsServer(Node):
     def __init__(self):
-        super().__init__('add_two_ints_server')
+        super().__init__('add_two_floats_server')
         
         # 3. Create the service
-        # The service name is 'add_two_ints'
-        # The service type is 'AddTwoInts'
+        # The service name is 'add_two_floats'
+        # The service type is 'AddTwoFloats'
         # The callback function is 'handle_request'
-        self.service = self.create_service(AddTwoInts, 'add_two_ints', self.handle_request)
+        self.service = self.create_service(AddTwoFloats, 'add_two_floats', self.handle_request)
 
     # 4. Define the handle_request method to process the request and return the response
     def handle_request(self, request, response):
@@ -28,6 +28,6 @@ class AddTwoIntsServer(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = AddTwoIntsServer()
+    node = AddTwoFloatsServer()
     rclpy.spin(node)
     rclpy.shutdown()
